@@ -1655,3 +1655,63 @@ com.auth0.jwt.exceptions.TokenExpiredException: The Token has expired on Mon Oct
 2021-03-27 11:28:26,015 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-9] Successfully retrieved orders for user
 2021-03-27 11:28:34,122 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-10] Received request to retrieve user orders.
 2021-03-27 11:28:34,125 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-10] Successfully retrieved orders for user
+2021-03-27 20:57:33,546 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on DESKTOP-HHRG4KP with PID 8028 (C:\Users\Victor\Desktop\nd035-c4-Security-and-DevOps\starter_code\target\classes started by Victor in C:\Users\Victor\Desktop\nd035-c4-Security-and-DevOps\starter_code)
+2021-03-27 20:57:33,552 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-27 20:57:33,554 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-03-27 20:57:37,741 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-03-27 20:57:37,742 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-27 20:57:38,153 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-03-27 20:57:38,705 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-27 20:57:39,269 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-27 20:57:39,551 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-27 20:57:39,833 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-27 20:57:39,841 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-03-27 20:57:40,230 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-27 20:57:40,603 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-27 20:57:43,820 DEBUG com.example.demo.security.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-03-27 20:57:46,090 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 13.909 seconds (JVM running for 15.539)
+2021-03-27 20:59:28,458 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-27 20:59:28,676 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Received request to create new user.
+2021-03-27 20:59:28,876 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] User Francis was successfully created.
+2021-03-27 20:59:33,244 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-3] Received request to create new user.
+2021-03-27 20:59:33,348 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-3] User Tommy was successfully created.
+2021-03-27 20:59:38,753 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] Received request to create new user.
+2021-03-27 20:59:38,851 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] User Jerry was successfully created.
+2021-03-27 20:59:46,894 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] Received request to create new user.
+2021-03-27 20:59:46,991 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] User Adrian was successfully created.
+2021-03-27 20:59:51,434 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-6] Received request to create new user.
+2021-03-27 20:59:51,535 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-6] User Teddy was successfully created.
+2021-03-27 21:25:17,705 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] Received request to create new user.
+2021-03-27 21:25:17,802 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] User Victor was successfully created.
+2021-03-27 21:27:48,474 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on DESKTOP-HHRG4KP with PID 16492 (C:\Users\Victor\Desktop\nd035-c4-Security-and-DevOps\starter_code\target\classes started by Victor in C:\Users\Victor\Desktop\nd035-c4-Security-and-DevOps\starter_code)
+2021-03-27 21:27:48,477 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-27 21:27:48,478 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-03-27 21:27:51,265 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-03-27 21:27:51,265 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-27 21:27:51,502 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-03-27 21:27:51,788 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-27 21:27:52,061 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-27 21:27:52,148 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-27 21:27:52,263 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-27 21:27:52,267 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-03-27 21:27:52,523 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-27 21:27:52,766 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-27 21:27:55,019 DEBUG com.example.demo.security.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-03-27 21:27:56,412 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 8.662 seconds (JVM running for 9.548)
+2021-03-27 21:28:57,561 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-27 21:28:57,720 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Received request to create new user.
+2021-03-27 21:28:57,915 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Successfully created user Joe
+2021-03-27 21:30:45,586 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] Received request to create new user.
+2021-03-27 21:30:45,677 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] Successfully created user Fred
+2021-03-27 21:30:49,735 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-6] Received request to create new user.
+2021-03-27 21:30:49,822 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-6] Successfully created user Robert
+2021-03-27 21:33:21,341 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] Received request to create new user.
+2021-03-27 21:33:21,436 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] Successfully created user Daniel
+2021-03-27 21:33:30,789 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-10] Received request to create new user.
+2021-03-27 21:33:30,875 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-10] Successfully created user Ronald
+2021-03-27 21:33:36,221 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-1] Received request to create new user.
+2021-03-27 21:33:36,330 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-1] Successfully created user Jorge
