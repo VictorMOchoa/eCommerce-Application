@@ -57,7 +57,7 @@ public class UserController {
 
 		if (!passwordsMatch(createUserRequest)) {
 			logger.error("Password and password confirmation did not match.");
-			return ResponseEntity.badRequest().build();
+			return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
 		}
 
 		if (!passwordLengthIsValid(createUserRequest)) {
